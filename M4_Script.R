@@ -110,7 +110,9 @@ lgcQModel <- mxModel("LGC",type="RAM", pathData, manifestVars=observed,
                                         labels=c("meanI", "meanS", "meanQ"))
 )
 
+
 #############################################
+
 
 mxOption(NULL, "Number of Threads", 1)
 
